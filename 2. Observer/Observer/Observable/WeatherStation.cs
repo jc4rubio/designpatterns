@@ -4,15 +4,9 @@ internal class WeatherStation : IObservable
 {
     private List<IObserver> Observers { get; set; } = [];
 
-    public void Add(IObserver observer)
-    {
-        this.Observers.Add(observer);
-    }
+    public void Add(IObserver observer) => this.Observers.Add(observer);
 
-    public void Remove(IObserver observer)
-    {
-        this.Observers.Remove(observer);
-    }
+    public void Remove(IObserver observer) => this.Observers.Remove(observer);
 
     public void Notify()
     {
@@ -22,18 +16,11 @@ internal class WeatherStation : IObservable
         }
     }
 
-    public float GetTemperature()
-    {
-        return new Random(DateTime.Now.Minute).Next(100, 350) / 10f;
-    }
+    private Random Random => new(DateTime.Now.Minute);
 
-    public int GetHumidity()
-    {
-        return new Random(DateTime.Now.Minute).Next(60, 90);
-    }
+    public float GetTemperature() => Random.Next(100, 350) / 10f;
 
-    public float GetPresure()
-    {
-        return 1016 + new Random(DateTime.Now.Minute).Next(-3, 3);
-    }
+    public int GetHumidity() => Random.Next(60, 90);
+
+    public float GetPresure() => 1016 + Random.Next(-3, 3);
 }
