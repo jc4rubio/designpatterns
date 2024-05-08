@@ -26,4 +26,14 @@ internal class WeatherStation : IObservable
     {
         return new Random(DateTime.Now.Minute).Next(100, 350) / 10f;
     }
+
+    public int GetHumidity()
+    {
+        return new Random(DateTime.Now.Minute).Next(60, 90);
+    }
+
+    public float GetPresure()
+    {
+        return 1016 + new Random(DateTime.Now.Minute).Next(-3, 3);
+    }
 }
