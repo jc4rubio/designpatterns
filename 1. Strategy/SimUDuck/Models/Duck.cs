@@ -5,7 +5,6 @@ internal abstract class Duck
     protected IFlyBehaviour FlyBehaviour { get; set; } = default!;
     protected IQuackBehaviour QuackBehaviour { get; set; } = default!;
 
-
     public void Swim()
     {
         Console.WriteLine("All duck float, even decoys!");
