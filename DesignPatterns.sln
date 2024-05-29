@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAutomation", "6. Comman
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Adapter and Facade", "7. Adapter and Facade", "{5CED0064-04E9-4117-9318-ECC7273CB34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "7. Adapter and Facade\Adapter\Adapter.csproj", "{35FA918D-F5C4-4624-B29D-F461515843EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "7. Adapter and Facade\Adapter\Adapter.csproj", "{35FA918D-F5C4-4624-B29D-F461515843EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "7. Adapter and Facade\Facade\Facade.csproj", "{6C18EE8C-CA8B-47C2-A037-044906CA4704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "7. Adapter and Facade\Facade\Facade.csproj", "{6C18EE8C-CA8B-47C2-A037-044906CA4704}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Template method", "8. Template method", "{8646F2E3-D56D-4266-A315-4CAF791C287D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "8. Template method\TemplateMethod\TemplateMethod.csproj", "{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{6C18EE8C-CA8B-47C2-A037-044906CA4704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C18EE8C-CA8B-47C2-A037-044906CA4704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C18EE8C-CA8B-47C2-A037-044906CA4704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +92,7 @@ Global
 		{D6157B8C-A9EA-4D42-920C-73B818CE78DD} = {0A4E5213-CDC0-48BE-9E3C-93515E267D68}
 		{35FA918D-F5C4-4624-B29D-F461515843EE} = {5CED0064-04E9-4117-9318-ECC7273CB34A}
 		{6C18EE8C-CA8B-47C2-A037-044906CA4704} = {5CED0064-04E9-4117-9318-ECC7273CB34A}
+		{57B93625-4C1C-4FDB-BAFA-2CEC158E5F92} = {8646F2E3-D56D-4266-A315-4CAF791C287D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1CCE55B-1945-406B-8420-8FD7D9948E8E}
